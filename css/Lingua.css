@@ -1,0 +1,192 @@
+body {
+    background-repeat:repeat-x;
+    background-position:left top;
+    background-attachment:fixed;
+    background-size:auto;
+    margin-bottom:-8px;
+}
+
+header {
+    background-color:rgb(207, 78, 78);
+    margin: -8px;
+    padding: 10px;
+}
+
+header p {
+    color:whitesmoke;
+    padding-left:30px;
+    font-size:large;
+    font-style:italic;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header p:hover {
+    color:black;
+}
+
+header a {
+    text-decoration:none;
+}
+
+
+nav {
+    background-color:rgb(53, 53, 53);
+    padding:1px;
+    margin: -8px;
+    text-align:center;
+}
+
+nav ul {
+    list-style-type:none;
+    word-spacing:30px;
+}
+
+nav ul a {
+    color:White;
+    text-decoration:none;
+}
+
+nav li {
+    display:inline-block;
+    padding:2.5px;
+}
+
+nav li a:hover {
+    background-color:rgb(138, 138, 138);
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+
+.email {
+    color:white;
+    padding:5px;
+    background-color:rgb(97, 156, 212);
+    border: 2px white;
+    border-style:solid;
+    border-radius: 20px;
+    float:right;
+    margin-top:-50px;
+}
+
+.email:hover {
+    background-color:rgb(138, 138, 138);
+    border-color:rgb(3, 3, 3);
+    padding:8px;
+}
+
+.header {
+    position:fixed;
+    top:-8px;
+    left:-8px;
+    right:-8px;
+
+}
+
+.lingue h1 {
+    margin-left:35%;
+
+}
+
+.box {
+    margin-top:100px;
+    margin-left:400px;
+}
+
+.box figure {
+    display:inline-block;
+    transition: transform .2s;
+}
+
+.box figure:hover {
+    transform: scale(1.2);
+}
+
+.IT {
+    width:300px;
+    height:100px;
+    border-radius:50px;
+}
+
+.EN {
+    width:300px;
+    height:100px;
+    border-radius:50px;
+}
+
+.TU {
+    width:300px;
+    height:100px;
+    border-radius:50px;
+}
+
+.upper-footer {
+    background-color:rgb(39, 35, 35);
+    position:relative;
+    margin-top:200px;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-left:-8px;
+    margin-right:-8px;
+}
+
+.upper-footer h3 {
+    color:white;
+    font-size: x-large;
+    margin-top:100px;
+    margin-left:900px;
+}
+
+.social {
+    display:block;
+    color:white;
+    padding-left:47%;
+    word-spacing:10px;
+    font-style: italic;
+}
+
+.social a {
+    text-decoration:none;
+    color:white;
+}
+
+
+.social a:hover {
+    color:gray;
+}
+
+.social ion-icon {
+    font-size: 20px;
+}
+
+.down-footer h3 {
+    color:white;
+    font-size:x-large;
+    margin-left:1500px;
+    margin-top:-150px;
+}
+
+.contatti {
+    display:block;
+    color:white;
+    margin-left: 1400px;
+}
+
+.upper-footer-img img {
+    margin-top:50px;
+    padding-left:100px;
+    float:left;
+    width:300px;
+}
+
+footer {
+    margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    background-color:rgb(53, 53, 53);
+    color:rgb(255, 255, 255);
+    padding:10px;
+}
